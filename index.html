@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crypto Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔐 Simple Crypto Wallet</h1>
+
+<button onclick="createWallet()">Generate Wallet</button>
+
+<div id="wallet"></div>
+
+<h2>Send ETH</h2>
+<input id="to" placeholder="Recipient Address">
+<input id="amount" placeholder="Amount (ETH)">
+<button onclick="sendETH()">Send</button>
+
+<p id="status"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
